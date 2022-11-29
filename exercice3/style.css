@@ -1,0 +1,46 @@
+/*
+
+Couleurs :
+
+blanc : #ffffff;
+noir: #000000;
+bleu clair : #c2cae8;
+bleu median : #4455b3
+bleu foncé : #0e2872;
+gris clair : #999999;
+gris encore plus clair : #bbbbbb;
+
+Polices :
+
+font-family : 'Arial', sans-serif;
+
+*/
+body{
+    background-color: #4455b3;
+    font-family : 'Arial', sans-serif;
+}
+main{
+    background-color: white;
+    border-radius: 10px;
+    height: 90vh;
+    width: 90vw;
+    position: absolute;
+    top: 5vh;
+    left: 5vw;
+}
+h1{
+    color: #4455b3;
+    text-align: center;
+}
+h2{
+    color: #4455b3;
+}
+legend{
+    font-weight: bold;
+}
+fieldset{
+    border: none;
+}
+section{
+    box-shadow: 2px 2px 2px #0e2872;
+}
