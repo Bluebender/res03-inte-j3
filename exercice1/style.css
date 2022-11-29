@@ -1,0 +1,61 @@
+/*
+
+Couleurs :
+
+blanc : #ffffff;
+noir: #000000;
+bleu clair : #c2cae8;
+bleu median : #4455b3
+bleu foncé : #0e2872;
+
+Polices :
+
+font-family : 'Arial', sans-serif;
+
+*/
+
+
+body{
+    background-color: #4455b3;
+    font-family : 'Arial', sans-serif;
+}
+main{
+    height: 50vh;
+    width: 50vw;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 25vh;
+    left: 25vw;
+}
+h1{
+    color: #4455b3;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+form{
+    margin-left: 10vw;
+}
+fieldset{
+    border: none;
+    margin:0;
+    padding: 0;
+}
+
+input{
+    background-color: #c2cae8;
+    border: none;
+    margin-bottom: 10px;
+    width: 30vw;
+    height: 25px;
+    border-radius: 5px;
+}
+button{
+    margin: 20px 0;
+    border: none;
+    background-color: #4455b3;*
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+}
