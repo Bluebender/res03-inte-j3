@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #d52a54;
+    width: 100vw;
+    height: 10vh;
+    position: fixed;
+}
+header nav ul{
+    text-align: center;
+    padding-top: 5vh;
+}
+header nav ul li{
+    display: inline;
+    margin: 0 5vw;
+    font-size: 1.4rem;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+section{
+    height: 100vh;
+    width: 100vw;
+}
+
+
+/*Accueil*/
+
+#accueil{
+    background-image: url("https://res03.sites.3wa.io/assets/files/inte/j3/mini-projet/assets/img/teacher.jpeg");
+    background-size: cover;
+    color: white;
+}
+#accueil h1{
+    font-size: 5.5rem;
+    width: 80vw;
+    padding-top: 25vh;
+    margin: 0 10vw;
+}
+#accueil h2{
+    font-size: 3.5rem;
+    width: 80vw;
+    margin: 0 10vw;
+}
+#accueil strong{
+    color: #d52a54;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#a_propos{
+    background-color: white;
+}
+
+#a_propos h2{
+    font-size: 3rem;
+    padding: 5vh;
+    text-align: center;
+}
+
+#a_propos p{
+    font-size: 1.2rem;
+    width: 40vw;
+    height: 30vh;
+    position: absolute;
+}
+#a_propos p:nth-of-type(1){
+    top: 120vh;
+    left: 8vw;
+}
+#a_propos p:nth-of-type(2){
+    top: 120vh;
+    right: 8vw;
+    
+}
+#a_propos p:nth-of-type(3){
+    top: 155vh;
+    left: 8vw;
+    
+}
+#a_propos p:nth-of-type(4){
+    top: 155vh;
+    right: 8vw;
+    
+}
+
+
+
+
+
+
+
+
+
+
+#les_cours{
+    background-color: #0b6ccd;
+}
+
+#les_cours h2{
+    color: white;
+    font-size: 3rem;
+    padding: 5vh;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#agenda{
+    background-color: white;
+    
+}
+#contact{
+    background-color: #0b6ccd;
+    
+}
+

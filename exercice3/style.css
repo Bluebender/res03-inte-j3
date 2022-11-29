@@ -42,5 +42,9 @@ fieldset{
     border: none;
 }
 section{
-    box-shadow: 2px 2px 2px #0e2872;
+    box-shadow: 2px 2px 2px #4455b3;
+    border: 0.2px solid #4455b3;
+    width: 80vw;
+    margin: 1vw 5vw;
+    border-radius: 5px;
 }
