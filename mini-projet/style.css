@@ -7,6 +7,7 @@ header{
     width: 100vw;
     height: 10vh;
     position: fixed;
+    z-index: 3;
 }
 header nav ul{
     text-align: center;
@@ -22,7 +23,7 @@ header nav ul li a{
     color: white;
     
 }
-section{
+main > section{
     height: 100vh;
     width: 100vw;
 }
@@ -68,7 +69,7 @@ section{
 
 #a_propos h2{
     font-size: 3rem;
-    padding: 5vh;
+    padding: 10vh;
     text-align: center;
 }
 
@@ -79,23 +80,20 @@ section{
     position: absolute;
 }
 #a_propos p:nth-of-type(1){
-    top: 120vh;
+    top: 125vh;
     left: 8vw;
 }
 #a_propos p:nth-of-type(2){
-    top: 120vh;
+    top: 125vh;
     right: 8vw;
-    
 }
 #a_propos p:nth-of-type(3){
-    top: 155vh;
+    top: 160vh;
     left: 8vw;
-    
 }
 #a_propos p:nth-of-type(4){
-    top: 155vh;
+    top: 160vh;
     right: 8vw;
-    
 }
 
 
@@ -110,25 +108,56 @@ section{
 #les_cours{
     background-color: #0b6ccd;
 }
-
 #les_cours h2{
     color: white;
     font-size: 3rem;
-    padding: 5vh;
+    padding: 10vh;
     text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
+#les_cours h3{
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 40px 0 20px 0;
+    color: white;
+}
+#les_cours section:nth-of-type(1) h3{
+    background-image: url("https://res03.sites.3wa.io/assets/files/inte/j3/mini-projet/assets/img/code.jpeg"); 
+    background-size: cover;
+    border-radius: 10px 10px 0 0;
+}
+#les_cours section:nth-of-type(2) h3{
+    background-image: url("	https://res03.sites.3wa.io/assets/files/inte/j3/mini-projet/assets/img/design.jpeg"); 
+    background-size: cover;
+    border-radius: 10px 10px 0 0;
+}
+#les_cours section:nth-of-type(3) h3{
+    background-image: url("https://res03.sites.3wa.io/assets/files/inte/j3/mini-projet/assets/img/management.jpeg"); 
+    background-size: cover;
+    border-radius: 10px 10px 0 0;
+}
+#les_cours section{
+    background-color: white;
+    height: 50vh;
+    width: 25vw;
+    position: absolute;
+    border-radius: 10px;
+}
+#les_cours section:nth-of-type(1){
+    top: 220vh;
+    left: 7vw;
+}
+#les_cours section:nth-of-type(2){
+    top: 220vh;
+    left: 37.5vw;
+    }
+#les_cours section:nth-of-type(3){
+    top: 220vh;
+    right: 7vw;
+}
+#les_cours p{
+    font-size: 1.4rem;
+    margin: 15px;
+}
 
 
 
@@ -140,6 +169,62 @@ section{
     background-color: white;
     
 }
+#agenda h2{
+    color: black;
+    font-size: 3rem;
+    padding: 5vh;
+    text-align: center;
+}
+
+#agenda section{
+    border-radius: 10px;
+    height: 60vh;
+    width: 20vw;
+    position: absolute;
+    top: 320vh;
+    box-shadow: 1px 1px 10px rgb(0 0 0 /30%);
+    text-align: center;
+    padding: 5px;
+}
+
+#agenda section:nth-of-type(1){
+    left: 4vw;
+}
+#agenda section:nth-of-type(2){
+    left: 28vw;
+}
+#agenda section:nth-of-type(3){
+    left: 52vw;
+}
+#agenda section:nth-of-type(4){
+    left: 76vw;
+}
+#agenda > section > h3{
+    font-size: 1.4rem;
+}
+#agenda > section > p{
+    font-size: 1.2rem;
+}
+#agenda .date{
+    font-size: 1.4rem;
+    font-weight: lighter;
+    padding: 10px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #contact{
     background-color: #0b6ccd;
     
