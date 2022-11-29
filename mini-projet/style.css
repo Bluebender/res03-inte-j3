@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 *{
     margin: 0;
     padding: 0;
@@ -69,7 +72,7 @@ main > section{
 
 #a_propos h2{
     font-size: 3rem;
-    padding: 10vh;
+    padding: 15vh;
     text-align: center;
 }
 
@@ -80,19 +83,19 @@ main > section{
     position: absolute;
 }
 #a_propos p:nth-of-type(1){
-    top: 125vh;
+    top: 130vh;
     left: 8vw;
 }
 #a_propos p:nth-of-type(2){
-    top: 125vh;
+    top: 130vh;
     right: 8vw;
 }
 #a_propos p:nth-of-type(3){
-    top: 160vh;
+    top: 165vh;
     left: 8vw;
 }
 #a_propos p:nth-of-type(4){
-    top: 160vh;
+    top: 165vh;
     right: 8vw;
 }
 
@@ -111,7 +114,7 @@ main > section{
 #les_cours h2{
     color: white;
     font-size: 3rem;
-    padding: 10vh;
+    padding: 15vh;
     text-align: center;
 }
 #les_cours h3{
@@ -141,17 +144,16 @@ main > section{
     width: 25vw;
     position: absolute;
     border-radius: 10px;
+    top: 230vh;
+
 }
 #les_cours section:nth-of-type(1){
-    top: 220vh;
     left: 7vw;
 }
 #les_cours section:nth-of-type(2){
-    top: 220vh;
     left: 37.5vw;
     }
 #les_cours section:nth-of-type(3){
-    top: 220vh;
     right: 7vw;
 }
 #les_cours p{
@@ -172,7 +174,7 @@ main > section{
 #agenda h2{
     color: black;
     font-size: 3rem;
-    padding: 5vh;
+    padding: 15vh;
     text-align: center;
 }
 
@@ -181,7 +183,7 @@ main > section{
     height: 60vh;
     width: 20vw;
     position: absolute;
-    top: 320vh;
+    top: 330vh;
     box-shadow: 1px 1px 10px rgb(0 0 0 /30%);
     text-align: center;
     padding: 5px;
@@ -199,6 +201,7 @@ main > section{
 #agenda section:nth-of-type(4){
     left: 76vw;
 }
+
 #agenda > section > h3{
     font-size: 1.4rem;
 }
@@ -215,18 +218,69 @@ main > section{
 
 
 
-
-
-
-
-
-
-
-
-
-
 #contact{
-    background-color: #0b6ccd;
+    background-color: #326584;
+}
+#contact h2{
+    color: white;
+    font-size: 3rem;
+    padding: 15vh;
+    text-align: center;
+}
+#contact section{
+    color: white;
+    height: 60vh;
+    width: 33vw;
+    position: absolute;
+    top: 430vh;
+    padding: 20px 60px;
+}
+#contact section:first-of-type{
+    left: 8vw;
+}
+#contact section:last-of-type{
+    right: 8vw;
+    border-left: 1px solid white;
+}
+#contact section h3{
+    font-size: 1.6rem;
+    font-weight: normal;
+}
+#contact fieldset{
+    border: none;
+    margin: 10px 0;
+}
+#contact section #message{
+    background-color: #c5d4de;
+    width: 25vw;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    height: 15vh;
+}
+#contact section input{
+    background-color: #c5d4de;
+    width: 25vw;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
     
 }
-
+button{
+    margin: 10px 0;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgb(0 0 0 /30%);
+    border: none;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+}
+#contact section p{
+    margin: 10px 0;
+    font-size: 1.4rem;
+}
+#contact section h4{
+    margin: 30px 0 10px 0;
+    font-weight: bold;
+    font-size: 2rem;
+}
